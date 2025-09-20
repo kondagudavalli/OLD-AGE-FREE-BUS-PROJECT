@@ -14,6 +14,7 @@ checkButton.addEventListener("click", function () {
         console.log('age is above 50');
         if(hasAadharCard){
             console.log('Welcome to ouR Bus🥰')
+          alret('Welcome to ouR Bus🥰')
             passengerStatus.textContent="Welcome to ouR Bus🥰";
         }else{
             console.log("I'm SorrY🤞");
